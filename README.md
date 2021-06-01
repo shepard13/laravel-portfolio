@@ -1,2 +1,45 @@
 # laravel-portfolio
 This is my Portfolio website, created by me with Laravel.
+
+## Setup your environment
+Install php8.0:
+```
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install php
+$ sudo apt install php-xml
+$ sudo apt install php-mbstring
+
+```
+Install mysql:
+```
+$ sudo apt install mysql-server
+```
+
+Download Composer:
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+```
+```
+$ sudo mv composer.phar /usr/local/bin/composer
+```
+Install laravel Via Composer and run:
+```
+composer create-project laravel/laravel example-app
+
+cd example-app
+
+php artisan serve
+```
+## General info
+This project is simple Lorem ipsum dolor generator.
+	
+## Technologies
+Project is created with:
+* Lorem version: 12.3
+* Ipsum version: 2.33
+* Ament library version: 999
+	
